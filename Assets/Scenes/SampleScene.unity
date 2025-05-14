@@ -708,6 +708,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 330503378}
+  - {fileID: 1157415938}
   m_Father: {fileID: 633792813}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -759,7 +760,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 633792819}
         m_TargetAssemblyTypeName: DescriptionPanelAction, Assembly-CSharp
         m_MethodName: PlaySound
         m_Mode: 1
@@ -783,7 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1105801843}
+  m_Material: {fileID: 1420402249}
   m_Color: {r: 0, g: 0.6784314, b: 0.83137256, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -18113,26 +18114,26 @@ MonoBehaviour:
   _activities:
   - title: Yoga
     description: Yoga is a type of sport that I don't know of
-    sound: {fileID: 8300000, guid: 3b067c660770a6c4e95ab1cce741fcdd, type: 3}
+    sound: {fileID: 8300000, guid: bb7d96ff3db6b0d4b9aae833211b3601, type: 3}
   - title: Baseball
     description: Baseball is a team sport that requires both strength and willpower
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 2a30f6092daee4f4b8a8e3850c62d28f, type: 3}
   - title: Basketball
     description: Basketball is a sport that is very cool smash dunk
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: b6dfd6d0744bab048aaf47f5f7b52edc, type: 3}
   - title: Horse ride
     description: Horse riding is a good sport in which you have to have a strong
       connection with your horse
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: b9df6a3fa84b46b4797f5769ee57a9ee, type: 3}
   - title: Football
     description: The american one is a team sport and soccer is more like theater
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 1e6a337c3425dd646bda2c722343d719, type: 3}
   - title: E-Sport
     description: I am out of ideas
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 39f66ec661a828743b441e056369065c, type: 3}
   - title: Volleyball
     description: Volleyball is also a team sport wich is great and all
-    sound: {fileID: 0}
+    sound: {fileID: 8300000, guid: 7dcc0563f6c8e494d9db9ba92a264b6a, type: 3}
   _parent: {fileID: 1094490348}
   _buttonPrefab: {fileID: 1855113842}
   _action: {fileID: 633792819}
@@ -25623,7 +25624,7 @@ Material:
     - _UseUIAlphaClip: 0
     m_Colors:
     - _OuterUV: {r: 0, g: 0, b: 1, a: 1}
-    - _WidthHeightRadius: {r: 160, g: 30, b: 18.6, a: 0}
+    - _WidthHeightRadius: {r: 26, g: 40, b: 5.32, a: 0}
   m_BuildTextureStacks: []
 --- !u!1 &1110082265
 GameObject:
@@ -26839,7 +26840,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -26848,7 +26849,7 @@ AudioSource:
   SpatializePostEffects: 0
   Priority: 128
   DopplerLevel: 1
-  MinDistance: 0.3161406
+  MinDistance: 2.826243
   MaxDistance: 500
   Pan2D: 0
   rolloffMode: 0
@@ -26950,12 +26951,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157415933}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.614, y: 0.818, z: 0.503}
-  m_LocalScale: {x: 1.0707, y: 1.0707, z: 1.0707}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -8.291899, y: -13.040684, z: 0.017699543}
+  m_LocalScale: {x: 845.5374, y: 705.1851, z: 2.3688579}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 23323761}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1160263424
 GameObject:
@@ -28262,8 +28263,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.7, y: -1.16}
-  m_SizeDelta: {x: 745.32, y: 375.2}
+  m_AnchoredPosition: {x: -1.7, y: -1.87}
+  m_SizeDelta: {x: 745.32, y: 338.54}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1207969137
 MonoBehaviour:
@@ -32135,7 +32136,7 @@ Material:
     - _UseUIAlphaClip: 0
     m_Colors:
     - _OuterUV: {r: 0, g: 0, b: 1, a: 1}
-    - _WidthHeightRadius: {r: 20, g: 4.5, b: 2.6, a: 0}
+    - _WidthHeightRadius: {r: 160, g: 30, b: 18.6, a: 0}
   m_BuildTextureStacks: []
 --- !u!1 &1421984294
 GameObject:
@@ -34953,7 +34954,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Material: {fileID: 1605832081}
+  m_Material: {fileID: 1105801843}
   m_Color: {r: 0.31764707, g: 0.31764707, b: 0.31764707, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
@@ -36418,7 +36419,7 @@ Material:
     - _UseUIAlphaClip: 0
     m_Colors:
     - _OuterUV: {r: 0, g: 0, b: 1, a: 1}
-    - _WidthHeightRadius: {r: 26, g: 40, b: 5.32, a: 0}
+    - _WidthHeightRadius: {r: 20, g: 4.5, b: 2.6, a: 0}
   m_BuildTextureStacks: []
 --- !u!1 &1606945364
 GameObject:
@@ -47561,5 +47562,4 @@ SceneRoots:
   - {fileID: 1168936455}
   - {fileID: 935545327}
   - {fileID: 1101852071}
-  - {fileID: 1157415938}
   - {fileID: 1886797190}
