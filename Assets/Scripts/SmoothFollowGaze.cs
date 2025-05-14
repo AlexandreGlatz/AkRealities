@@ -7,14 +7,7 @@ public class SmoothFollowGaze : MonoBehaviour
     [SerializeField] Transform _cameraTransform;
     [SerializeField] float _cameraDistance = 1.0f;
     [SerializeField] float _smoothTime = 0.3f;
-    bool _isCentered;
     Vector3 _velocity = Vector3.zero;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        _isCentered = false;
-    }
 
     // Update is called once per frame
     void Update()
